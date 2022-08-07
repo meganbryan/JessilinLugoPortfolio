@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(./assets/BackgroundAnimation.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Unna', serif;
+  min-height: 100%;
+  color: black;
+  font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.main-heading {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  text-align: right;
+  font-size: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.blast-off {
+  font-family: 'Roboto', sans-serif;
   color: white;
+  text-align: right;
+  font-size: 3rem;
+  text-decoration: none;
+  background-color: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-family: 'Unna', serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.small-heading {
+  font-size: 24px;
+}
+
+.link-icon {
+  color: black;
+}
+
+li {
+  font-size: 28px;
+  font-family: 'Unna', serif;
+}
+
+p {
+  font-size: 24px;
+}
+
+.grayscale {
+  filter: grayscale(70%);
+}
+
+.link {
+  color: #c175ff;
+  font-family: 'Unna', serif;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.link-alt {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a {
+  font-family: 'Unna', serif;
+  color: black
+}
+
+a:hover {
+  color: #593b30;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* .transparent {
+  background-color: rgba(160, 157, 157, 0.9);
+} */
+
+.empty-box {
+  height:130px;
+}
+
+.navbar {
+  background-color:rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+.img-with-text {
+  filter: blur(3px) opacity(80%);
+}
+
+.text-background {
+  background-color: rgba(36, 35, 35, 0.92);
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container2 {
+  position: relative;
+  text-align: left;
+  font-size: 32px;
+  color: black;
 }
